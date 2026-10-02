@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+.vscode/
+*.egg-info/
+
+# Données : on ignore le contenu, pas les dossiers
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
